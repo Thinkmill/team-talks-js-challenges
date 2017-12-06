@@ -1,11 +1,11 @@
 {
-	"dependencies": {
-		"jest": "^21.2.1",
-		"jsdom": "^11.5.1"
-	},
-	"scripts": {
-		"test": "yarn run test:symmetric-node && yarn run test:event-emitter",
-		"test:symmetric-node": "jest ./symmetric-node",
-		"test:event-emitter": "jest ./event-emitter"
-	}
+  "dependencies": {
+    "jest": "^21.2.1",
+    "jsdom": "^11.5.1"
+  },
+  "scripts": {
+    "test": "yarn run test:symmetric-node && yarn run test:event-emitter",
+    "test:symmetric-node": "jest ./symmetric-node --watch",
+    "test:event-emitter": "jest ./event-emitter --watch"
+  }
 }
