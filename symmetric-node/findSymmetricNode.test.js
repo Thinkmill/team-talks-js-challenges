@@ -34,6 +34,6 @@ describe('findSymmetricNode', () => {
 		const node2 = dom.window.document.getElementById('node2');
 
 		expect(findSymmetricNode(treeA, treeB, node1))
-			.toEqual(node2);
+			.toBe(node2);
 	});
 })
