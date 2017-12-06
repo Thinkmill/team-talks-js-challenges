@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jest": "^21.2.1",
+		"testEnvironment": "jsdom"
+  },
+	"scripts": {
+		"test:symmetric-node": "jest ./symmetric-node",
+		"test:event-emitter": "jest ./event-emitter"
+	}
+}
